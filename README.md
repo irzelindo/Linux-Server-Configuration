@@ -10,8 +10,7 @@ http://ec2-52-43-194-43.us-west-2.compute.amazonaws.com
 ## Summary of configuration
 - Create new user "grader" and give him sudo permissions
 	- sudo adduser grader
-	- type superheros as password
-	- sudo echo "grader ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/grader
+	- sudo echo "grader ALL=(ALL) ALL" >> /etc/sudoers.d/grader
 - Enable ssh login for user grader: create ssh key pair, save public key in remote server /home/grader/.ssh/authorized_keys
 - Check and update installed paskages
 	- sudo apt-get update
