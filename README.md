@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Linux Server Configuration
 This project is about server configuration and deploying of an web application previously developped(Items Catalog)
 
@@ -6,7 +5,7 @@ This project is about server configuration and deploying of an web application p
 52.43.194.43
 
 ## Application Items Catalog link
-[a link](http://ec2-52-43-194-43.us-west-2.compute.amazonaws.com/)
+http://ec2-52-43-194-43.us-west-2.compute.amazonaws.com
 
 ## Summary of configuration
 - Create new user "grader" and give him sudo permissions
@@ -60,6 +59,3 @@ A private key will be given in review notes. Use this private key to connect to 
 - change file persmissions on .ssh/ and key.rsa
 	- chmod 600 ~.ssh/key.rsa
 - ssh -i ~.ssh/key.rsa -p 2200 grader@52.43.194.43
-=======
-# Linux-Server-Configuration
->>>>>>> 3053e2461b0b34c25a57dce09a761b2406109035
